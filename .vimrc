@@ -46,8 +46,8 @@ autocmd InsertLeave * set nocul
 let mapleader = "\<Space>"
 let g:syntastic_javascript_checkers = ['jshint']
 
-let g:opamshare = substitute(system('opam config var share'),'\n$','','''')
-execute "set rtp+=" . g:opamshare . "/merlin/vim"
+"let g:opamshare = substitute(system('opam config var share'),'\n$','','''')
+"execute "set rtp+=" . g:opamshare . "/merlin/vim"
 " let g:syntastic_ocaml_checkers = ['merlin']
 set rtp^="/Users/aya/.opam/system/share/ocp-indent/vim"
 
@@ -70,7 +70,7 @@ map <Leader>u <<
 "nnoremap <C-S-u> <<
 
 let NVIM_TUI_ENABLE_TRUE_COLOR=1
-colors jellybeans
+"colors jellybeans
 
 autocmd BufWritePre * :%s/\s\+$//e
 
