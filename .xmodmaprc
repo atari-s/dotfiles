@@ -1,0 +1,4 @@
+keycode 133 = Control_L
+keycode 37 = Overlay1_Enable
+clear mod4
+add control = Control_L
