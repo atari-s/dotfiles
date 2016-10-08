@@ -3,6 +3,7 @@ call plug#begin('~/.config/nvim')
 Plug 'scrooloose/nerdtree', { 'on': 'NERDTreeToggle' }
 Plug 'scrooloose/syntastic'
 Plug 'pangloss/vim-javascript'
+Plug 'vim-perl/vim-perl', { 'for': 'perl', 'do': 'make clean carp dancer highlight-all-pragmas moose test-more try-tiny' }
 Plug 'hhsnopek/vim-firewatch'
 Plug 'rakr/vim-two-firewatch'
 Plug 'vim-airline/vim-airline'
