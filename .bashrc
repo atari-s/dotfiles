@@ -3,7 +3,7 @@
 
 
 alias ls='ls --color=auto'
-PS1='[\u@\h \W]\$ '
+PS1="[\u@\h \w]\$(git branch 2>/dev/null | grep -e '\* ' | sed 's/^..\(.*\)/( \1 )/')\$ "
 
 
 EDITOR=/bin/nvim
