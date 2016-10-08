@@ -1,8 +1,13 @@
 call plug#begin('~/.config/nvim')
 
 Plug 'scrooloose/nerdtree', { 'on': 'NERDTreeToggle' }
+Plug 'scrooloose/syntastic'
+Plug 'pangloss/vim-javascript'
+Plug 'hhsnopek/vim-firewatch'
 Plug 'rakr/vim-two-firewatch'
 Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
+Plug 'bling/vim-bufferline'
 
 call plug#end()
 
@@ -89,8 +94,9 @@ let NVIM_TUI_ENABLE_TRUE_COLOR=1
 
 set background=dark
 let g:two_firewatch_italics=1
-colo two-firewatch
-let g:airline_theme='twofirewatch'
+colorscheme firewatch
+let g:airline_theme='distinguished'
+highlight ColorColumn ctermbg=0 "8
 
 
 autocmd BufWritePre * :%s/\s\+$//e
