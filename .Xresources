@@ -1,3 +1,11 @@
 xterm*termName: xterm-256color
 xterm*locale: true
-xterm*reverseVideo: on
+xterm*reverseVideo: off
+xterm*loginShell: true
+xterm*foreground: rgb:82/ac/c2
+xterm*background: rgb:00/00/00
+xterm*eightBitInput: false
+xterm*saveLines: 3000
+xterm*allowBoldFonts: false
+xterm*font: fixed
+xterm*boldFont: fixed
