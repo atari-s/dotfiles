@@ -6,6 +6,8 @@ xterm*foreground: rgb:82/ac/c2
 xterm*background: rgb:00/00/00
 xterm*eightBitInput: false
 xterm*saveLines: 3000
+xterm*faceName: Meslo
+xterm*faceSize: 8
 xterm*allowBoldFonts: false
 xterm*font: fixed
 xterm*boldFont: fixed
