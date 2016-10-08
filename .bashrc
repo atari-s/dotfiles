@@ -10,6 +10,7 @@ EDITOR=/bin/nvim
 VISUAL=/bin/nvim
 
 
+alias nv=nvim
 alias v=nvim
 alias vim=nvim
 
