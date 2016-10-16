@@ -18,6 +18,14 @@ alias vim=nvim
 bind -f ~/.inputrc
 
 
+PATH="$PATH:$HOME/.gem/ruby/2.3.0/bin"
+export GEM_HOME=$(ruby -e 'print Gem.user_dir')
+GEM_PATH=$GEM_HOME
+GEM_PATH="$HOME/.gem/ruby/2.3.0:$GEM_PATH"
+
+
 if [ -z "$DISPLAY" ] && [ "$(fgconsole)" -eq 1 ]; then
   exec startx
 fi
+
+export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
