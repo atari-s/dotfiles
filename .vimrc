@@ -15,6 +15,8 @@ Plug 'easysid/mod8.vim'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'bling/vim-bufferline'
+Plug 'vim-scripts/bash-support.vim'
+Plug 'flazz/vim-colorschemes'
 
 call plug#end()
 
@@ -102,6 +104,7 @@ let NVIM_TUI_ENABLE_TRUE_COLOR=1
 set background=dark
 let g:two_firewatch_italics=1
 colorscheme firewatch
+"colorscheme hybrid
 let g:airline_theme='distinguished'
 highlight ColorColumn ctermbg=0 "8
 
